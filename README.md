@@ -1,112 +1,69 @@
 # AI Ops Automation Framework
 
-Examples and reference architectures for AI-assisted operational automation, incident response workflows, and engineering productivity tooling.
+This repository contains reference workflows, architecture examples, and operational automation patterns focused on reducing engineering friction across platform and support operations.
 
-## Overview
+The goal is not to replace engineers.
 
-This repository provides a collection of best practices, reference implementations, and architectural patterns for leveraging AI to enhance operational efficiency, automate incident response, and improve engineering productivity across your organization.
+The focus is improving operational efficiency by automating repetitive workflows around:
 
-## Key Features
+* incident response
+* on-call operations
+* operational visibility
+* support escalation
+* workflow orchestration
+* engineering productivity
 
-- **Operational Automation**: Streamline repetitive ops tasks with AI-powered automation
-- **Incident Response Workflows**: Accelerate incident detection, diagnosis, and resolution
-- **Engineering Productivity**: Enhance developer workflows and reduce toil
-- **Reference Architectures**: Battle-tested patterns and best practices
-- **Extensible Framework**: Build and customize automation workflows for your needs
+Many engineering organizations spend significant time on repetitive operational work that slows delivery and increases support overhead. These examples are intended to demonstrate how AI-assisted workflows and automation tooling can improve operational maturity while allowing engineers to focus on higher-value platform and product work.
 
-## Getting Started
+## Areas Covered
 
-### Prerequisites
+* PagerDuty workflow automation
+* Jira operational integrations
+* AI-assisted incident triage
+* Centralized operational intelligence
+* Workflow remediation automation
+* Engineering support automation
+* Operational observability patterns
 
-- Git
-- Python 3.8+
-- Docker (optional, for containerized deployments)
+## Example Use Cases
 
-### Installation
+### AI-Assisted Incident Triage
 
-```bash
-git clone https://github.com/imran-waseem-eng-leader/ai-ops-automation-framework.git
-cd ai-ops-automation-framework
-```
+Automates:
 
-## Repository Structure
+* incident context collection
+* ownership routing
+* log aggregation
+* related deployment identification
+* historical incident correlation
 
-```
-.
-├── README.md                 # This file
-├── docs/                     # Documentation
-├── examples/                 # Example implementations
-├── architectures/            # Reference architectures
-└── templates/                # Workflow templates
-```
+### Operational Workflow Automation
 
-## Use Cases
+Examples include:
 
-### 1. Incident Response Automation
-Automate initial incident triage, alerting, and runbook execution
+* automated restart workflows
+* failure remediation patterns
+* operational runbook execution
+* support escalation reduction
 
-### 2. Log Analysis & Anomaly Detection
-AI-powered log aggregation and anomaly detection
+### Engineering Productivity Workflows
 
-### 3. Capacity Planning
-Predictive analytics for resource planning
+Examples include:
 
-### 4. Security Automation
-Automated security incident detection and response
+* PR review assistance
+* operational summarization
+* workflow scaffolding
+* engineering knowledge systems
 
-## Contributing
+## Architecture Themes
 
-We welcome contributions! Please follow these steps:
+* Event-driven workflows
+* Operational observability
+* Workflow orchestration
+* AI-assisted automation
+* Distributed systems operations
+* Platform reliability
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+## Disclaimer
 
-## Documentation
-
-For detailed documentation, guides, and tutorials, please see the [docs/](./docs/) directory.
-
-## Examples
-
-Check the [examples/](./examples/) directory for working implementations and use case demonstrations.
-
-## Reference Architectures
-
-Review the [architectures/](./architectures/) directory for recommended patterns and deployment strategies.
-
-## Support
-
-For issues, questions, or discussions:
-
-- Open an [Issue](https://github.com/imran-waseem-eng-leader/ai-ops-automation-framework/issues)
-- Start a [Discussion](https://github.com/imran-waseem-eng-leader/ai-ops-automation-framework/discussions)
-- Check the [Wiki](https://github.com/imran-waseem-eng-leader/ai-ops-automation-framework/wiki)
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Roadmap
-
-- [ ] Core automation framework
-- [ ] Incident response workflows
-- [ ] Monitoring integrations
-- [ ] Alert routing and enrichment
-- [ ] Advanced analytics and reporting
-- [ ] Community contributed workflows
-
-## Authors
-
-Created and maintained by [@imran-waseem-eng-leader](https://github.com/imran-waseem-eng-leader)
-
-## Acknowledgments
-
-- AI and ML community for frameworks and tools
-- DevOps and SRE community for best practices
-- Contributors and maintainers
-
----
-
-**Last Updated**: May 18, 2026
+Examples are intentionally simplified and generalized for educational and architectural demonstration purposes.
