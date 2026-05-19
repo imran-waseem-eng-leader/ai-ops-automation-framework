@@ -67,3 +67,8 @@ Examples include:
 ## Disclaimer
 
 Examples are intentionally simplified and generalized for educational and architectural demonstration purposes.
+
+## Reference Architecture
+
+![AI Ops Architecture](ai_ops_architecture.png)
+
